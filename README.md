@@ -196,7 +196,7 @@ class SearchQuery(BaseModel):
 - cs.CV - 计算机视觉
 - cs.CL - 计算语言学
 - cs.RO - 机器人学
-- 更多...
+- 更多……
 
 ### 数学 (math.*)
 
