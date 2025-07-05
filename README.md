@@ -121,6 +121,16 @@ async def main():
 asyncio.run(main())
 ```
 
+## 文档
+
+### 📚 完整 API 文档
+
+查看完整的 API 文档，包含详细的方法说明、参数解释和更多示例：
+
+**[📖 API 文档](./API_DOCUMENTATION.md)**
+
+### 快速参考
+
 ## API 文档
 
 ### ArxivClient 类
@@ -180,6 +190,7 @@ class SearchQuery(BaseModel):
 ## 支持的 arXiv 分类
 
 ### 计算机科学 (cs.*)
+
 - cs.AI - 人工智能
 - cs.LG - 机器学习
 - cs.CV - 计算机视觉
@@ -188,17 +199,20 @@ class SearchQuery(BaseModel):
 - 更多...
 
 ### 数学 (math.*)
+
 - math.ST - 统计理论
 - math.OC - 优化与控制
 - math.PR - 概率论
 - 更多...
 
 ### 物理 (physics.*)
+
 - physics.comp-ph - 计算物理
 - physics.data-an - 数据分析
 - 更多...
 
 ### 统计学 (stat.*)
+
 - stat.ML - 机器学习
 - stat.ME - 统计方法
 - 更多...
@@ -214,6 +228,7 @@ class SearchQuery(BaseModel):
 ## 更新日志
 
 ### 1.0.0 (2025-07-06)
+
 - 初始版本发布
 - 基本搜索功能
 - 多字段搜索支持

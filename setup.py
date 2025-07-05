@@ -6,8 +6,18 @@ from setuptools import setup, find_packages
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
-with open("requirements.txt", "r", encoding="utf-8") as fh:
-    requirements = [line.strip() for line in fh if line.strip() and not line.startswith("#")]
+
+requirements = [
+    "aiohttp>=3.8.0",
+    "feedparser>=6.0.0",
+    "pydantic>=2.0.0",
+    "pydantic-settings>=2.0.0",
+    "python-dotenv>=1.0.0",
+    "loguru>=0.7.0",
+    "click>=8.0.0",
+    "build>=1.0.0",
+    "twine>=4.0.0"
+]
 
 setup(
     name="arxiv-search-sdk",
@@ -17,7 +27,7 @@ setup(
     description="A comprehensive Python SDK for searching and retrieving arXiv papers",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/arxiv-search-sdk",
+    url="https://github.com/li-xiu-qi/arxiv-search-sdk",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",

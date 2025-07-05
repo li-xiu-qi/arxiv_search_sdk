@@ -12,7 +12,6 @@ ArXiv Search SDK 是一个功能强大的 Python 库，专门用于搜索和获�
 - 🌐 **异步支持**: 使用 asyncio 提供高性能的异步搜索
 - 📊 **数据模型**: 使用 Pydantic 提供类型安全的数据模型
 
-
 ## 安装
 
 ```bash
@@ -418,8 +417,6 @@ class SearchResult(BaseModel):
 - `q-fin.MF` - 数学金融
 - `q-fin.RM` - 风险管理
 - `q-fin.ST` - 统计金融
-
-
 
 ## 错误处理
 
