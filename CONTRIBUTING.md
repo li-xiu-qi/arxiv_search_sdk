@@ -53,7 +53,7 @@ mypy .
 
 1. 克隆仓库
 ```bash
-git clone https://github.com/yourusername/arxiv-search-sdk.git
+git clone https://github.com/li-xiu-qi/arxiv-search-sdk.git
 cd arxiv-search-sdk
 ```
 
